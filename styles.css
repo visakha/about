@@ -396,6 +396,16 @@ footer {
     left: 0;
 }
 
+/* LinkedIn link styling */
+.btn[href="https://www.linkedin.com/in/vamsivegi/"] {
+    color: #FFA07A; /* Light Salmon - light orange color */
+    transition: color 0.3s ease;
+}
+
+.btn[href="https://www.linkedin.com/in/vamsivegi/"]:hover {
+    color: #FF7F50; /* Coral - slightly darker orange on hover */
+}
+
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
     body {
